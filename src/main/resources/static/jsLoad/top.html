@@ -1,0 +1,29 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="./favicon.ico">
+<link href="../css/bootstrap.min14ed.css?20170108" rel="stylesheet">
+<link href="../css/font-awesome.min93e3.css?20170108" rel="stylesheet">
+<link href="../css/plugins/morris/morris-0.4.3.min.css?20170108" rel="stylesheet">
+<link href="../js/plugins/gritter/jquery.gritter.css?20170108" rel="stylesheet">
+<link href="../css/style.min862f.css?20170108" rel="stylesheet">
+<link href="../css/self.css?20170302" rel="stylesheet">
+<script __del>
+/**
+ * 描述 : 本地可调用 of 框架中的js扩展
+ * 注明 : 需要放在 jsLoad 的加载文件中
+ * 作者 : Edgar.lee
+ */
++function () {
+    //当前文件, jsLoad 自动填充不要修改
+    var src = "";
+
+    //配置系统根目录
+    window.ROOT_URL = src + "../..";
+    //配置框架根目录
+    window.OF_URL   = ROOT_URL + "/include/of";
+    //配置视图根目录
+    window.VIEW_URL = ROOT_URL + "/view";
+
+    document.write('<script src' + '="' + OF_URL + '/att/link/jquery.js"></' + 'script>');
+    document.write('<script src' + '="' + OF_URL + '/att/link/L.js"></' + 'script>');
+}();
+</script>

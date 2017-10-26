@@ -1,0 +1,106 @@
+.enleter{width:200px;
+    word-wrap:break-word;/* 自动换行遇到字母或数字*/
+    word-break:break-all;/* 英文单词*/
+}
+.znleter{width:200px;}
+.top20{margin-top: 20px;}
+.mbottom{margin-bottom: 10px;}
+.required {
+    position: relative;
+}
+.required:after {
+    position: absolute;
+    top: 5px;
+    display: inline-block;
+    font-size: 17px;
+    color: #ea644a;
+    content: '*';
+}
+.text-important {
+    color: #bd7b46;
+}
+.text-important:hover {
+    color: #996337;
+}
+.text-special {
+    color: #8666b8;
+}
+.text-special:hover {
+    color: #6c4aa1;
+}
+.text-link {
+    color: #353535;
+}
+.text-link:hover,
+.text-link:active {
+    color: #145ccd;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+.text-center {
+    text-align: center;
+}
+.text-nowrap,
+.nobr {
+    overflow: hidden;
+    white-space: nowrap;
+}
+.text-ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.logo-element img{width: 30px;padding-right:5px; }
+.form-inline button{margin-top: 5px;}
+.request label{ margin-left: 20px;}
+.request select{ min-width:120px;}
+.request .form-group{margin-bottom: 10px; }
+
+.searchbox{ background-color: #fff;    border-radius: 4px; padding: 0px 15px;    margin:4px 15px;
+}
+
+.divappplace{ margin-left: 30px; margin-bottom: 20px;}
+.box100{ width: 60px!important; float: left;
+    display: inline-block;
+    padding-left: 0px; margin-left: 10px;}
+.h40{height:70px!important; font-size: 40px!important; color:#d9534f; font-weight: 600; }
+.h20{height:60px; font-weight: 600; font-size: 30px;}
+.left30{ width: 30%; float: left; margin-right: 20px;}
+.bred{background-color: #d9534f;}
+.leftp{ padding-left: 60px; line-height: 30px;}
+.mptop{margin-top: 0px;}
+.m20{margin-top: 20px;}
+/***********扫描发货样式**************/
+.input_w{
+    width:400px;
+    height:70px;
+}
+
+.atop{width: 20px; height: 20px;}
+.collect{margin-left: 140px;}
+.collect label{ margin-left: 60px;font-size: 45px;  font-weight: 100!important;}
+.collect select{ min-width:120px;font-size: 45px;  font-weight: 100!important;}
+.collect .form-group{margin-bottom: 10px; }
+.pagetop{ margin-top: 0px;}
+.hbottom{ border-bottom:1px solid #1ab394; 
+          margin-bottom:10px; padding-bottom:5px; color:#19aa8d}
+.picselImgTitle{ background-color:#337ab7;}
+.ascending {
+    background-image: url(../img/sort_asc.gif)!important;
+}
+.sorted {
+    background: url(../img/sort_default.gif) right center no-repeat;
+    cursor: pointer;
+    margin-right: 5px;
+    padding: 0px 15px 0px 0px;
+}
+
+
+.descending {
+    background-image: url(../img/sort_desc.gif);
+}
+
